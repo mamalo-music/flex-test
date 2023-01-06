@@ -1,0 +1,73 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: rgb(27, 23, 85);
+  color: white;
+  font-size: 15px;
+}
+nav {
+  position: static;
+}
+ul.nav-bar {
+  background: linear-gradient(rgb(67, 67, 248), rgb(18, 18, 54));
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; /*  dar rasta artefa nesbat be valed */
+  align-content: center; /*  dar rasta artefa nesbat be valed be sorat row */
+}
+ul.nav-bar li {
+  color: black;
+  position: relative;
+  width: 25%;
+  height: 40px;
+  text-align: center;
+  transition: all 0.5s;
+}
+ul.nav-bar li:nth-child(1):hover {
+  padding-top: 40px;
+  transition: all 1s;
+  text-align: center;
+  height: 40px;
+  width: 25%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-bottom: solid 2px rgb(1, 251, 255);
+}
+ul.nav-bar li:nth-child(2):hover {
+  padding-top: 40px;
+  transition: all 1s;
+  text-align: center;
+  height: 40px;
+  width: 25%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-bottom: solid 2px rgb(255, 183, 1);
+}
+ul.nav-bar li:nth-child(3):hover {
+  padding-top: 40px;
+  transition: all 1s;
+  text-align: center;
+  height: 40px;
+  width: 25%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-bottom: solid 2px rgb(1, 251, 255);
+}
+ul.nav-bar li:nth-child(4):hover {
+  padding-top: 40px;
+  transition: all 1s;
+  text-align: center;
+  height: 40px;
+  width: 25%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-bottom: solid 2px rgb(255, 183, 1);
+}
